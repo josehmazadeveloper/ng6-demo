@@ -1,7 +1,7 @@
 # Logs
-logs
+hello-world-ng6/logs
 *.log
-npm-debug.log*
+hello-world-ng6/npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
@@ -21,10 +21,13 @@ coverage
 .nyc_output
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+hello-world-ng6/.grunt
 
 # Bower dependency directory (https://bower.io/)
-bower_components
+hello-world-ng6/bower_components
+hello-world-ng6/dist
+hello-world-ng6/tmp
+
 
 # node-waf configuration
 .lock-wscript
@@ -33,14 +36,14 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+hello-world-ng6/node_modules/
 jspm_packages/
 
 # TypeScript v1 declaration files
 typings/
 
 # Optional npm cache directory
-.npm
+hello-world-ng6/.npm
 
 # Optional eslint cache
 .eslintcache
