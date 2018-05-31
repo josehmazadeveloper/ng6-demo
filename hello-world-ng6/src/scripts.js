@@ -19,3 +19,10 @@ nuevot.forEach(element => {
 var merged = arr.reduce(function(a, b) {
   a.concat(b);
 });
+
+var merged2 = arr.reduce(function(a, b) {
+  a.concat(b);
+  a.concat(b);
+  a.concat(b);
+  a.concat(b);
+});
