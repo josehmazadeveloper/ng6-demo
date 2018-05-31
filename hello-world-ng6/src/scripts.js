@@ -34,3 +34,17 @@ var x = "Foo";
 if (x < 0) {
   new Error("x must be nonnegative");
 }
+
+
+//Esto es en la rama develop
+for (i = 1; i<5; i++) {
+  // Print i to the Output window.
+  Debug.write("loop index is " + i);
+  // Wait for user to resume.
+  debugger;
+}
+
+var value = eval('obj.' + propName);
+
+
+
