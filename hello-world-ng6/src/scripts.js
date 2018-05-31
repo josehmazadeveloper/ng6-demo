@@ -5,7 +5,17 @@ var nuevo =123;
 
 let ko = jose;
 
+var nuevo = 51516;
+function foo() {
+  for (var i = 0; i < 5; i++) {
+    yield i * 2;
+  }
+}
 
 nuevot.forEach(element => {
     console.log("aiubhsias"+ element)
+});
+
+var merged = arr.reduce(function(a, b) {
+  a.concat(b);
 });
