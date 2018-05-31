@@ -26,3 +26,11 @@ var merged2 = arr.reduce(function(a, b) {
   a.concat(b);
   a.concat(b);
 });
+
+var x = "Foo";
+"length" in x;
+0 in x;
+
+if (x < 0) {
+  new Error("x must be nonnegative");
+}
