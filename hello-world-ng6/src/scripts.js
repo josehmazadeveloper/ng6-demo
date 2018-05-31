@@ -34,3 +34,11 @@ var x = "Foo";
 if (x < 0) {
   new Error("x must be nonnegative");
 }
+
+//esto es en local
+
+if(unexpectedCondition) {
+  alert("Unexpected Condition");
+}
+var obj =  new Function("return " + data)();
+console.log("ola k ase");
