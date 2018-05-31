@@ -2,6 +2,10 @@
 hello-world-ng6/logs
 *.log
 hello-world-ng6/npm-debug.log*
+hello-world-prod/npm-debug.log*
+spring-boot-angular/.idea/*
+.scannerwork/*
+.idea/*
 yarn-debug.log*
 yarn-error.log*
 
@@ -22,11 +26,15 @@ coverage
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 hello-world-ng6/.grunt
-
+hello-world-prod/.grunt
 # Bower dependency directory (https://bower.io/)
 hello-world-ng6/bower_components
 hello-world-ng6/dist
 hello-world-ng6/tmp
+
+hello-world-prod/bower_components
+hello-world-prod/dist
+hello-world-prod/tmp
 
 
 # node-waf configuration
@@ -38,6 +46,8 @@ build/Release
 # Dependency directories
 hello-world-ng6/node_modules/
 jspm_packages/
+
+hello-world-prod/node_modules/
 
 # TypeScript v1 declaration files
 typings/
