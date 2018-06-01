@@ -4,6 +4,8 @@ hello-world-ng6/logs
 hello-world-ng6/npm-debug.log*
 hello-world-prod/npm-debug.log*
 spring-boot-angular/.idea/*
+spring-boot-angular/portal-app/node/*
+spring-boot-angular/portal-app/target/*
 .scannerwork/*
 .idea/*
 yarn-debug.log*
