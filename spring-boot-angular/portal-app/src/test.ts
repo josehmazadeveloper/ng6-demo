@@ -30,3 +30,20 @@ const context = require.context('./', true, /\.spec\.ts$/);
 context.keys().map(context);
 // Finally, start Karma to run the tests.
 __karma__.start();
+
+
+var john = {
+  firstName: "john",
+  show: function() { console.log(firstName); } // Noncompliant: firstName is not defined
+}
+john.show();
+
+// add
+const password = "asdasd";
+
+let my_pwd;
+my_pwd = "qwerewt";
+
+login({ passwd: "zxvxcv"});
+
+const url = "https://example.com?password=h
